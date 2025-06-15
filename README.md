@@ -1,16 +1,14 @@
-# praktikumstream
+📚 Flutter State Management dengan Streams Repositori ini berisi tugas-tugas praktikum Pemrograman Streams pada Flutter, berdasarkan materi perkuliahan Aplikasi Mobile Lanjutan.
 
-A new Flutter project.
+🚀 Getting Started Proyek ini merupakan titik awal untuk memahami konsep Streams programming dalam Flutter. Setiap soal berisi penjelasan, cuplikan kode, serta hasil output berupa screenshot atau GIF.
 
-## Getting Started
+📝 Daftar Soal
 
-This project is a starting point for a Flutter application.
+✅ Soal 1 
 
-A few resources to get you started if this is your first Flutter project:
+📸 Hasil:
+![s1](https://github.com/user-attachments/assets/78023b51-5ab4-4816-a46e-b9475a253ce2)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Soal 2
+![s2](https://github.com/user-attachments/assets/c7057329-992d-429a-b5ae-ebaac86416a6)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
