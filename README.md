@@ -49,9 +49,10 @@ Langkah 2 (subscription),untuk melakukan langganan (subscription) terhadap strea
 Langkah 6 (dispose subscription.camcel), untuk menghentikan aliran data dan membersihkan sumber daya (resource) ketika widget sudah tidak aktif. numberStream.close() akan menutup StreamController, sedangkan subscription.cancel() akan menghentikan proses langganan terhadap stream. Ini penting untuk menghindari kebocoran memori (memory leak).
 
 Langkah 8 (edit addRandomNumber), untuk menambahkan angka acak ke dalam stream. Jika StreamController masih terbuka (belum ditutup), maka angka akan dikirimkan ke stream. Namun, jika sudah ditutup, maka akan ditampilkan nilai -1 sebagai tanda bahwa data tidak bisa lagi dikirimkan.
-
-
 📸 Hasil:
 ![s9](https://github.com/user-attachments/assets/b6e5acfa-0f1a-4047-8b77-29bde8f40e66)
+
+✅ Soal 10
+Karena stream hanya bisa digunakan untuk 1 subscriptiom. Apabila ingin melakukan lebih dari 1 subsxription, maka perlu menggunakan broadcast Stream.
 
 
