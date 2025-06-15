@@ -43,5 +43,15 @@ Langkah 3 (Edit stream), berfungsi sebagai listener agar data yg sebelumnya tela
 📸 Hasil:
 ![s8](https://github.com/user-attachments/assets/ef3925de-7dbc-45b3-8ab3-b6ee98221d75)
 
+✅ Soal 9
+Langkah 2 (subscription),untuk melakukan langganan (subscription) terhadap stream, sekaligus memproses data yang masuk. Stream tersebut dimanipulasi menggunakan transformer, lalu hasil akhirnya akan didengarkan oleh listen(). Di dalam listen, setiap data yang masuk akan diolah dan ditampilkan ke UI melalui setState.
+
+Langkah 6 (dispose subscription.camcel), untuk menghentikan aliran data dan membersihkan sumber daya (resource) ketika widget sudah tidak aktif. numberStream.close() akan menutup StreamController, sedangkan subscription.cancel() akan menghentikan proses langganan terhadap stream. Ini penting untuk menghindari kebocoran memori (memory leak).
+
+Langkah 8 (edit addRandomNumber), untuk menambahkan angka acak ke dalam stream. Jika StreamController masih terbuka (belum ditutup), maka angka akan dikirimkan ke stream. Namun, jika sudah ditutup, maka akan ditampilkan nilai -1 sebagai tanda bahwa data tidak bisa lagi dikirimkan.
+
+
+📸 Hasil:
+![s9](https://github.com/user-attachments/assets/b6e5acfa-0f1a-4047-8b77-29bde8f40e66)
 
 
