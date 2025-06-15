@@ -24,7 +24,24 @@
 -Tidak ada perbedaan signifikan dalam fungsionalitas jika menggunakan .listen() tanpa async, karena .listen() tidak perlu ditunggu hasilnya. Namun, jika kita menggunakan await, seperti pada await for, maka fungsi tersebut harus ditandai sebagai async. Ini karena await hanya bisa digunakan di dalam fungsi async.
 
 ✅ Soal 6
+-Langkah 8 (initState), untuk memuat data awal dari stream, mengatur koneksi stream, dan mendengarkan datanya agar UI bisa diperbarui setiap kali stream mengirim angka baru.
+-Langka 10 (addRandomNumber), berfungsi untuk membuat angka random dengan batas maksimal 9, karena "random.nextInt(10)" menghasilkan angka dari 0 sampai kurang dari 10.
 📸 Hasil:
 ![s6](https://github.com/user-attachments/assets/ab611b7c-c78b-47c8-afbf-c0e5c5bbe5b7)
+
+✅ Soal 7
+Langkah 13 (addError),berfungsi untuk mengirimkan error ke dalam stream. Ketika dipanggil, stream akan men-trigger listener-nya untuk menangani error tersebut melalui onError. Fungsi ini tidak berfungsi sebagai validator input, tetapi sebagai mekanisme pelaporan error dalam sistem stream.
+
+Langkah 15 (Edit Method addRandomNumber), agar error bisa berfungsi maka perlu di uji dengan komentari 2 baris addNumberRandom
+
+✅ Soal 8
+Langkah 1 (initialized StreamTransformer), berfungsi untuk menginisialisasi variabel sebelum dibuat struktur function kode nya.
+
+Langkah 2 (menambahkan variabel transformer => initState), berfungsi untuk memanipulasi data yg kemudian di ubah oleh "handleData", menangani eror "handleError", dan menutup sink saat stream selesai "handleDone".
+
+Langkah 3 (Edit stream), berfungsi sebagai listener agar data yg sebelumnya telah dimanipulasi bisa ditampilkan
+📸 Hasil:
+![s8](https://github.com/user-attachments/assets/ef3925de-7dbc-45b3-8ab3-b6ee98221d75)
+
 
 
