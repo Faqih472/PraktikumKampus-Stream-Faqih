@@ -27,4 +27,9 @@
 📸 Hasil:
 ![s6](https://github.com/user-attachments/assets/ab611b7c-c78b-47c8-afbf-c0e5c5bbe5b7)
 
+✅ Soal 6
+📸 Hasil:
+![s7](https://github.com/user-attachments/assets/5e6a16ef-c759-4cf5-b0c8-382f210ef6cb)
+
+
 
