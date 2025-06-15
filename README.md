@@ -19,3 +19,6 @@
 ✅ Soal 4
 ![s4](https://github.com/user-attachments/assets/bf298c1c-c53c-4ae0-9162-d7882feff70f)
 
+✅ Soal 5
+-Tidak ada perbedaan signifikan dalam fungsionalitas jika menggunakan .listen() tanpa async, karena .listen() tidak perlu ditunggu hasilnya. Namun, jika kita menggunakan await, seperti pada await for, maka fungsi tersebut harus ditandai sebagai async. Ini karena await hanya bisa digunakan di dalam fungsi async.
+
