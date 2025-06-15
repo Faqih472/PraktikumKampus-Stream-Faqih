@@ -8,3 +8,7 @@
 
 📸 Hasil:
 ![s1](https://github.com/user-attachments/assets/78023b51-5ab4-4816-a46e-b9475a253ce2)
+
+✅ Soal 2
+![s2](https://github.com/user-attachments/assets/c7057329-992d-429a-b5ae-ebaac86416a6)
+
