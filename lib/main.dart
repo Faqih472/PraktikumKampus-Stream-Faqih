@@ -72,7 +72,7 @@ class _StreamHomePageState extends State<StreamHomePage> {
     super.initState();
     numberStream = NumberStream();
     numberStreamController = numberStream.controller;
-    Stream stream = numberStreamController.stream;
+    Stream stream = numberStreamController.stream.asBroadcastStream();
 
     transformer =
     StreamTransformer<int, int>.fromHandlers(handleData: (value, sink) {
@@ -134,7 +134,7 @@ class _StreamHomePageState extends State<StreamHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(lastNumber.toString()),
+            Text(values),
             ElevatedButton(
               onPressed: () => addRandomNumber(),
               child: const Text('Add Random Number'),
