@@ -55,4 +55,10 @@ Langkah 8 (edit addRandomNumber), untuk menambahkan angka acak ke dalam stream. 
 ✅ Soal 10
 Karena stream hanya bisa digunakan untuk 1 subscriptiom. Apabila ingin melakukan lebih dari 1 subsxription, maka perlu menggunakan broadcast Stream.
 
+✅ Soal 11
+Karena stream telah di define dengan propert BroadcastStream. sehingga data yg masuk dan ditampilkan menjadi 2 value (subscription dan subscription2)
+
+📸 Hasil:
+![s11](https://github.com/user-attachments/assets/8eacb677-1dab-42d1-b49c-24ae2aa7d4e7)
+
 
